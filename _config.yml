@@ -10,7 +10,7 @@ title:            grant's gazette
 tagline:          'a place where stuff goes to die'
 description:      'a place where stuff goes to die'
 url:              http://www.grantnicholas.github.io/blog/
-baseurl:          http://www.grantnicholas.github.io/blog/
+baseurl:          /blog
 
 author:
   name:           'Grant Nicholas'
