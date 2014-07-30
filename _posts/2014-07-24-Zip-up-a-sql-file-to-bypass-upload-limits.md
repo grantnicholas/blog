@@ -7,8 +7,8 @@ Was trying to upload a sql file through drupal's built in FTP in order to migrat
 By zipping up the file I was able to get around the upload limit.  
 
 1. [windows only] navigate to your mysql/bin directory
-2. mysqldump -u username databasename > thesqlfile.sql
-3. gzip thesqlfile.sql
+2. `mysqldump -u username databasename > thesqlfile.sql`
+3. `gzip thesqlfile.sql`
 
 And done. A zipped up sql file ready to be uploaded.
 
