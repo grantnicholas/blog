@@ -9,11 +9,11 @@ The solution:
 I first disabled the click to advance a slide with:
 			`Drupal.behaviors.fssnewBehavior = {
 			attach: function(){
-				$(" #views_slideshow_cycle_teaser_section_case_studies-block ").click(function(event){
-					event.preventDefault(); 
-					event.stopImmediatePropagation();
-					console.log(event.type + "was prevented");
-				});
+					$(" #views_slideshow_cycle_teaser_section_case_studies-block ").click(function(event){
+						event.preventDefault(); 
+						event.stopImmediatePropagation();
+						console.log(event.type + "was prevented");
+					});
 			}
 			};`
 	 
