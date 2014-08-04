@@ -15,7 +15,7 @@ I first disabled the click to advance a slide with:
 					console.log(event.type + "was prevented");
 				});
 			}
-     };`
+			};`
 	 
 However, I quickly found that this also disabled the links within the views. After messing around with using preventDefault()
 versus return false and not getting anywhere I decided to go the hacky route: write new javascript to reimplement
