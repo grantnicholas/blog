@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Express.js: no such file or directory error 
+title: Express.js no such file or directory error 
 ---
 
 There are two packages in ubuntu: node and nodejs 
