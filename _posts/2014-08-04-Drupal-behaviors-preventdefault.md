@@ -9,7 +9,7 @@ The solution:
 I first disabled the click to advance a slide with:
 			
 			
-			`Drupal.behaviors.fssnewBehavior = {
+			Drupal.behaviors.fssnewBehavior = {
 			attach: function(){
 					$(" #views_slideshow_cycle_teaser_section_case_studies-block ").click(function(event){
 						event.preventDefault(); 
@@ -17,7 +17,7 @@ I first disabled the click to advance a slide with:
 						console.log(event.type + "was prevented");
 					});
 			}
-			};`
+			};
 	 
 However, I quickly found that this also disabled the links within the views. After messing around with using preventDefault()
 versus return false and not getting anywhere I decided to go the hacky route: write new javascript to reimplement
@@ -27,11 +27,11 @@ is grabbed and used to open a new webpage. Really simple and intuitive. Let me k
 implementing this functionality! 
 -Grant
 
-	 		`Drupal.behaviors.fssnew1Behavior = {
+	 		Drupal.behaviors.fssnew1Behavior = {
 			attach: function(){
 					$(" .site-link ").click(function(event){
 					var sitename = event.target.innerHTML;
 					window.open(sitename);
 					})
 			}
-			};`
+			};
