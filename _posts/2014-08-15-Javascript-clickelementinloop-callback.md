@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Adding click handlers in a loop- javascript closures
+title: Adding click handlers in a loop with javascript closures
 ---
 I wanted to make an array of elements on a page all have an event happen on click. 
-I first tried:
+I first tried-
 
 
 
